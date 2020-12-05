@@ -17,3 +17,4 @@ serverless.custom.yml
 .eslintcache
 
 .aws
+build
