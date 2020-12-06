@@ -1,8 +1,8 @@
 import { APIGatewayProxyHandler, APIGatewayEvent, Context, Callback } from 'aws-lambda';
 import 'source-map-support/register';
-import { pino } from 'pino';
+import { default as Pino } from 'pino';
 
-const logger = pino({ name: __filename.split(/[\\/]/).pop() });
+const logger = Pino({ name: __filename.split(/[\\/]/).pop() });
 
 export const hello: APIGatewayProxyHandler = async (
     event: APIGatewayEvent,
