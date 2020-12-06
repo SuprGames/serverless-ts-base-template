@@ -2,6 +2,5 @@ node_modules
 .serverless
 .webpack
 build
-.eslintrc.js
-.prettierrc.js
-webpack.config.js
+*.js
+test
