@@ -1,7 +1,7 @@
 node_modules
 .serverless
 .webpack
-lib
+build
 .eslintrc.js
 .prettierrc.js
 webpack.config.js
